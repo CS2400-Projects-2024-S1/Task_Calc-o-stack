@@ -1,3 +1,4 @@
+// task 2 - LinkedStack class instance to implement the algorithm convertToPostfix
 import java.util.Stack;
 
 public class LinkedStack {
