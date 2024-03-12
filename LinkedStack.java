@@ -72,7 +72,7 @@ public class LinkedStack {
     // testing
     public static void main(String[] args) {
         // infix expression
-        String infixExpression = "a+b*c-(d/e+f)*g";
+        String infixExpression = "ab/(c-a)+de";
         // infix to postfix
         String postfixExpression = convertToPostfix(infixExpression);
         // print 
