@@ -44,6 +44,7 @@ public class LinkedStack {
                 // Push  current operator onto the stack
                 stack.push(currentChar);
             }
+            System.out.println(postfixExpression);
         }
 
         // Pop any remaining operators from the stack and append to the postfix 
@@ -72,7 +73,7 @@ public class LinkedStack {
     // testing
     public static void main(String[] args) {
         // infix expression
-        String infixExpression = "ab/(c-a)+de";
+        String infixExpression = "a*b/(c-a)+d*e";
         // infix to postfix
         String postfixExpression = convertToPostfix(infixExpression);
         // print 
