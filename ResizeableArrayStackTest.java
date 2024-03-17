@@ -1,4 +1,4 @@
-public class ArrayStackDriver {
+public class ResizeableArrayStackTest {
     public class Main {
         public static void main(String[] args) {
             // Create an ArrayStack object
