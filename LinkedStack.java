@@ -68,6 +68,10 @@ public final class LinkedStack<T> implements StackInterface<T>
             if (Character.isLetterOrDigit(currentChar)) {
                 postfixExpression.append(currentChar);
             }
+            // If character is a power operator, push it onto the stack
+            else if (currentChar == '^') {
+               operatorStack.push(currentChar);
+           }
             // If character is an opening parenthesis, push it onto the stack
             else if (currentChar == '(') {
                 operatorStack.push(currentChar);
@@ -107,6 +111,8 @@ public final class LinkedStack<T> implements StackInterface<T>
     // Method to determine the precedence of an operator
     private static int precedence(char operator) {
         switch (operator) {
+            case '^':
+                return 3;
             case '*':
             case '/':
                 return 2;

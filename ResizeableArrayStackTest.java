@@ -14,6 +14,8 @@ public class ResizeableArrayStackTest {
         int result2 = stack.evaluatePostfix(postfix2);
         int result3 = stack.evaluatePostfix(postfix3);
         int result4 = stack.evaluatePostfix(postfix4);
+
+        // Print results
         System.out.println("Result of " + postfix1 + " = " + result1);
         System.out.println("Result of " + postfix2 + " = " + result2);
         System.out.println("Result of " + postfix3 + " = " + result3);
