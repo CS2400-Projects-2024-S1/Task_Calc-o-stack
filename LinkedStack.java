@@ -1,5 +1,4 @@
 import java.util.EmptyStackException;
-import java.util.Stack;
 /**
     A class of stacks whose entries are stored in a chain of nodes.
     @author Frank M. Carrano and Timothy M. Henry
