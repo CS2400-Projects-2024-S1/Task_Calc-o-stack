@@ -2,7 +2,7 @@ public class ArrayStackDriver {
     public class Main {
         public static void main(String[] args) {
             // Create an ArrayStack object
-            ArrayStack<Integer> stack = new ArrayStack<>();
+            ResizeableArrayStack<Integer> stack = new ResizeableArrayStack<>();
     
             // Test cases
             String postfix1 = "26+35-/";

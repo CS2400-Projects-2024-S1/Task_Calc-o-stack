@@ -6,7 +6,7 @@ import java.util.EmptyStackException;
     @author Timothy M. Henry
     @version 4.0
 */
-public final class ArrayStack<T> implements StackInterface<T>
+public final class ResizeableArrayStack<T> implements StackInterface<T>
 {
     private T[] stack;    // Array of stack entries
     private int topIndex; // Index of top entry
@@ -14,12 +14,12 @@ public final class ArrayStack<T> implements StackInterface<T>
     private static final int DEFAULT_CAPACITY = 50;
     private static final int MAX_CAPACITY = 10000;
     
-    public ArrayStack()
+    public ResizeableArrayStack()
     {
         this(DEFAULT_CAPACITY);
     } // end default constructor
     
-    public ArrayStack(int initialCapacity)
+    public ResizeableArrayStack(int initialCapacity)
     {
         checkCapacity(initialCapacity);
         
@@ -88,7 +88,7 @@ public final class ArrayStack<T> implements StackInterface<T>
    private void checkInitialization()
    {
         if (!initialized)
-            throw new SecurityException ("ArrayStack object is not initialized properly.");
+            throw new SecurityException ("ResizeableArrayStack object is not initialized properly.");
    } // end checkInitialization
    
    // Throws an exception if the client requests a capacity that is too large.
@@ -113,7 +113,7 @@ public final class ArrayStack<T> implements StackInterface<T>
     } // end ensureCapacity
 
    public Integer evaluatePostfix(String postfix) {
-      ArrayStack<Integer> valueStack = new ArrayStack<>();
+    ResizeableArrayStack<Integer> valueStack = new ResizeableArrayStack<>();
   
       // Loop through the postfix expression
       for (int i = 0; i < postfix.length(); i++) {
@@ -155,4 +155,4 @@ public final class ArrayStack<T> implements StackInterface<T>
   }
 
 
-} // end ArrayStack
+} // end ResizeableArrayStack
