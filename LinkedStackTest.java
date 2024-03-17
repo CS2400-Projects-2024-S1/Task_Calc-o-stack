@@ -1,14 +1,13 @@
 public class LinkedStackTest {
-
     public static void main(String[] args) {
-        //Define the infix expression
-        String infixExpression = "a*b/(c-a)+d*e";
-
-        //Convert the infix expression to postfix using LinkedStack class
-        String postfixExpression = LinkedStack.convertToPostfix(infixExpression);
-
-        //Print the infix and postfix expressions
-        System.out.println("Infix Expression: " + infixExpression);
-        System.out.println("Postfix Expression: " + postfixExpression);
+        // Create a LinkedStack object
+        LinkedStack<Integer> stack = new LinkedStack<Integer>();
+    
+        // Test cases
+        String infix1 = "a*b/(c-a)+d*e";
+    
+        // Test infix conversion to postfix
+        String postfix1 = stack.convertToPostfix(infix1);
+        System.out.println("Converted " + infix1 + " to " + postfix1);
     }
 }
