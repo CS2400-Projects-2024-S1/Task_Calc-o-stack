@@ -12,13 +12,11 @@ public interface StackInterface < T > {
     public void push(T newEntry);
 
     /** Removes and returns this stack's top entry.
-        @return  The object at the top of the stack. 
-        @throws  EmptyStackException if the stack is empty before the operation. */
+        @return  The object at the top of the stack. */
     public T pop();
 
     /** Retrieves this stack's top entry.
-        @return  The object at the top of the stack.
-        @throws  EmptyStackException if the stack is empty. */
+        @return  The object at the top of the stack. */
     public T peek();
 
     /** Detects whether this stack is empty.
