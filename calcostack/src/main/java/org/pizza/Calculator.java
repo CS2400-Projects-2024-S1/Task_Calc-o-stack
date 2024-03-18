@@ -27,7 +27,6 @@ public class Calculator {
             System.out.println();
             switch(inputChar) {
                 case '1':
-                    LinkedStack<Character> ConversionStack = new LinkedStack<>();
                     System.out.print("Enter an infix expression: ");
                     String inputInfixExpression = scnr.nextLine();
                     String outputPostfixExpression = LinkedStack.convertToPostfix(inputInfixExpression);
@@ -37,7 +36,7 @@ public class Calculator {
                     System.out.print("Enter a postfix expression: ");
                     String inputPostfixExpression = scnr.nextLine();
                     Integer ouputEvaluation = ResizeableArrayStack.evaluatePostfix(inputPostfixExpression);
-                    System.out.println("The value of the postfix expression is: ");
+                    System.out.println("The value of the postfix expression is: " + ouputEvaluation);
                     break;
                 case 'q':
                     break;
