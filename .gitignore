@@ -25,17 +25,17 @@ replay_pid*
 
 # Maven .gitignore
 
-operationbagsome/target/
-operationbagsome/pom.xml.tag
-operationbagsome/pom.xml.releaseBackup
-operationbagsome/pom.xml.versionsBackup
-operationbagsome/pom.xml.next
-operationbagsome/release.properties
-operationbagsome/dependency-reduced-pom.xml
-operationbagsome/buildNumber.properties
-operationbagsome/.mvn/timing.properties
+calcostack/target/
+calcostack/pom.xml.tag
+calcostack/pom.xml.releaseBackup
+calcostack/pom.xml.versionsBackup
+calcostack/pom.xml.next
+calcostack/release.properties
+calcostack/dependency-reduced-pom.xml
+calcostack/buildNumber.properties
+calcostack/.mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
-operationbagsome/.mvn/wrapper/maven-wrapper.jar
+calcostack/.mvn/wrapper/maven-wrapper.jar
 
 # Visual Studio Code Folder
 .vscode/*
