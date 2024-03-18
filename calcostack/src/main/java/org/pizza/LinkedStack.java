@@ -1,3 +1,4 @@
+package org.pizza;
 import java.util.EmptyStackException;
 /**
     A class of stacks whose entries are stored in a chain of nodes.
