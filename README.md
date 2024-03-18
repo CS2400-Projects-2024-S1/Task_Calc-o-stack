@@ -10,9 +10,11 @@ Roles and Contributions:
 - Jennifer Garcia
 Wrote LinkedStack.java and LinkedStackTest.java
 Helped with task 1 - Converting Infix to Postfix
-Helped withtask 4 - Evaluating Postfix & README.md file
+Helped with task 4 - Evaluating Postfix & README.md file
 
 - Monika Crichton
 
 
 - Kenneth Wang
+  - Works on ResizeableArrayStack.java and ResizeableArrayStackTest.java
+  - Sets up Junit Unit Testing
