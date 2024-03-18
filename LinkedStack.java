@@ -96,6 +96,7 @@ public final class LinkedStack<T> implements StackInterface<T>
                 // Push  current operator onto the stack
                 operatorStack.push(currentChar);
             }
+            System.out.println(postfixExpression);
         }
 
         // Pop any remaining operators from the stack and append to the postfix 
