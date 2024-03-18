@@ -36,6 +36,7 @@ public class Calculator {
                 case '2':
                     System.out.println("Enter a postfix expression: ");
                     String inputPostfixExpression = scnr.nextLine();
+                    Integer ouputEvaluation = ResizeableArrayStack.evaluatePostfix(inputPostfixExpression);
                     System.out.println("The value of the postfix expression is: ");
                     break;
                 case 'q':
