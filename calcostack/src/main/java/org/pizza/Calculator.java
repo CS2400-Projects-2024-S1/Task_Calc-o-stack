@@ -23,26 +23,26 @@ public class Calculator {
                 System.out.println("No option entered. Please enter a valid option.");
                 continue;
             }
-            
+
             System.out.println();
-            switch(inputChar) {
-                case '1':
-                    System.out.print("Enter an infix expression: ");
-                    String inputInfixExpression = scnr.nextLine();
-                    String outputPostfixExpression = LinkedStack.convertToPostfix(inputInfixExpression);
-                    System.out.println("The postfix expression is: " + outputPostfixExpression);
-                    break;
-                case '2':
-                    System.out.print("Enter a postfix expression: ");
-                    String inputPostfixExpression = scnr.nextLine();
-                    Integer ouputEvaluation = ResizeableArrayStack.evaluatePostfix(inputPostfixExpression);
-                    System.out.println("The value of the postfix expression is: " + ouputEvaluation);
-                    break;
-                case 'q':
-                    break;
-                default:
-                    System.out.println("Invalid option. Please enter a valid option.");
-                    break;
+            switch (inputChar) {
+            case '1':
+                System.out.print("Enter an infix expression: ");
+                String inputInfixExpression = scnr.nextLine();
+                String outputPostfixExpression = LinkedStack.convertToPostfix(inputInfixExpression);
+                System.out.println("The postfix expression is: " + outputPostfixExpression);
+                break;
+            case '2':
+                System.out.print("Enter a postfix expression: ");
+                String inputPostfixExpression = scnr.nextLine();
+                Integer ouputEvaluation = ResizeableArrayStack.evaluatePostfix(inputPostfixExpression);
+                System.out.println("The value of the postfix expression is: " + ouputEvaluation);
+                break;
+            case 'q':
+                break;
+            default:
+                System.out.println("Invalid option. Please enter a valid option.");
+                break;
             }
         }
         scnr.close();
