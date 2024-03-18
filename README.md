@@ -8,12 +8,15 @@ Group Members:
 Roles and Contributions:
 
 - Jennifer Garcia
-Wrote LinkedStack.java and LinkedStackTest.java
-Helped with task 1 - Converting Infix to Postfix
-Helped with task 4 - Evaluating Postfix & README.md file
+  - Wrote LinkedStack.java and LinkedStackTest.java
+  - Helped with task 1 - Converting Infix to Postfix
+  - Helped with task 4 - Evaluating Postfix & README.md file
 
 - Monika Crichton
-
+  - Wrote Calculator.java
+  - Helped with task 1 - Converting Infix to Postfix
+  - Helped with task 4 - Evaluating Postfix & README.md file
+  - Fixed up various things (LinkedStack, README, etc.)
 
 - Kenneth Wang
   - Works on ResizeableArrayStack.java and ResizeableArrayStackTest.java
