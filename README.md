@@ -8,7 +8,9 @@ Group Members:
 Roles and Contributions:
 
 - Jennifer Garcia
-
+Wrote LinkedStack.java and LinkedStackTest.java
+Helped with task 1 - Converting Infix to Postfix
+Helped withtask 4 - Evaluating Postfix & README.md file
 
 - Monika Crichton
 
