@@ -170,7 +170,7 @@ public final class ResizeableArrayStack < T > implements StackInterface < T > {
      * @return the result of the evaluation
      */
     public Integer evaluatePostfix(String postfix) {
-        ResizeableArrayStack < Integer > valueStack = new ResizeableArrayStack < > ();
+        ResizeableArrayStack <Integer> valueStack = new ResizeableArrayStack<> ();
 
         for (int i = 0; i < postfix.length(); i++) {
             char nextCharacter = postfix.charAt(i);
