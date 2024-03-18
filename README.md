@@ -21,3 +21,15 @@ Roles and Contributions:
 - Kenneth Wang
   - Works on ResizeableArrayStack.java and ResizeableArrayStackTest.java
   - Sets up Junit Unit Testing
+
+## Feature
+- Java 1.8
+- Unit test classes using JUnit framework for rigorous testing.
+- Javadoc generation by Maven Javadoc Plugin 3.6.3
+
+## Usage (For Contributors)
+Run ```mvn javadoc:javadoc``` to update javadoc.
+Javadoc HTML file located at ```${project.basedir}/javadoc/myapidocs/index.html```
+
+## Screencast link: 
+https://vimeo.com/924486787?share=copy
