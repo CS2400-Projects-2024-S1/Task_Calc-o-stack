@@ -2,7 +2,7 @@ Group: pizza
 
 Group Members:
 - Jennifer Garcia (jennifere@cpp.edu) Github: fercia
-- Monika Crichton (mcrichton@cpp.edu) Github: JustTransScripts
+- {REDACTED} ({REDACTED}) Github: JustTransScripts
 - Kenneth Wang (kennethwang@cpp.edu) Github: kennethtl0522
 
 Roles and Contributions:
@@ -12,7 +12,7 @@ Roles and Contributions:
   - Helped with task 1 - Converting Infix to Postfix
   - Helped with task 4 - Evaluating Postfix & README.md file
 
-- Monika Crichton
+- {JustTransScripts}
   - Wrote Calculator.java
   - Helped with task 1 - Converting Infix to Postfix
   - Helped with task 4 - Evaluating Postfix & README.md file
